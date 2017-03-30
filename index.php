@@ -23,6 +23,11 @@ foreach ($news->sources as $n) {
             </div>
             <?php endforeach; ?>
         </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p>Powered by: <a href="https://newsapi.org/">NewsAPI.org</a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
