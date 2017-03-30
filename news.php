@@ -20,7 +20,7 @@ foreach ($news->articles as $n) {
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Source : <?=strtoupper(str_replace('-', ' ', $source));?> | <a href="index.php">Back to home</a></h1> 
+                <h1>Source : <?=strtoupper(str_replace('-', ' ', $source));?> | <a href="index.php">Back to home</a> | <a href="https://github.com/julzpalomiano/news-api">Download source</a></h1> 
             </div>
             <?php foreach($articles as $d) : ?>
             <div class="col-md-4">
