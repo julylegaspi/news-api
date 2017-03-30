@@ -1,6 +1,6 @@
 <?php
 $source = $_GET['source'];
-$apiKey = '5c787bfea3344dca8511b5fb39f4c7c5';
+$apiKey = 'your api key here';
 $data = file_get_contents("https://newsapi.org/v1/articles?source={$source}&sortBy=top&apiKey={$apiKey}");
 $news = json_decode($data);
 $articles = [];
